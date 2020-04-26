@@ -1,0 +1,14 @@
+
+export const RESUME_NAME = 'RESUME_NAME';
+
+export const RESUME_EMAIL = 'RESUME_EMAIL';
+
+export const RESUME_ADDRESS = 'RESUME_ADDRESS';
+
+export const RESUME_PHONE = 'RESUME_PHONE';
+
+export const RESUME_EDUCATION = 'RESUME_EDUCATION';
+
+export const RESUME_EXPERIENCE = 'RESUME_EXPERIENCE';
+
+export const RESET_RESUME = 'RESET_RESUME';

@@ -1,0 +1,93 @@
+
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+
+@keyframes bgco {
+    0% {background:#004;}
+    100% {background:#602;}
+}
+
+.fade-in {
+    animation: fadeIn ease .75s;
+}
+
+.container {
+    animation: fadeIn ease .75s;
+    margin:6em auto;
+}
+
+.homepage {
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+.bg_home {
+    animation: fadeIn ease .75s;
+    position: fixed;
+    background-attachment: fixed;
+    background-position: center;
+    top:0;
+    left:0;
+    right:0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.bg_home_col {
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom: 0;
+    animation: bgco 10s alternate 0s infinite;
+    opacity: .8;
+    z-index: -1;
+}
+
+.in_home_head {
+    display:flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    width:60px;
+    height:50px;
+    box-shadow: 0 0 0 2px #fff;
+}
+
+.in_dark {
+    box-shadow: 0 0 0 2px #000;
+}
+
+.in_home_head a {
+    color:#fff;
+    font-size:28px;
+}
+
+.in_home {
+    animation: fadeIn ease .75s;
+    z-index:2;
+    height: 100vh;
+    margin:auto;
+    align-items: center;
+    display: flex;
+    flex-flow:column;
+    justify-content: center;
+}
+
+.btn-lg {
+    padding: 15px 30px;
+    font-size:20px;
+}
+
+#edu_info {
+    background:#efe;
+    border-radius:5px;
+}
+
+#exp_info {
+    background:#ffd;
+    border-radius:5px;
+}
