@@ -33,9 +33,9 @@ const One = ({onRouteChange}) => {
         <button className="btn btn-btn btn-light mr-2 float-right" onClick={()=> {onRouteChange('')}}>Change template</button>
         <div>
             <h2>{name}</h2><br />
-            <span><b>email me:</b> {email}</span><br />
-            <span><b>address:</b> {address}</span><br />
-            <span><b>phone number:</b> {phone}</span>
+            <span><b>Email:</b> {email}</span><br />
+            <span><b>Address:</b> {address}</span><br />
+            <span><b>Phone:</b> {phone}</span>
         </div>
         <br />
         <div>
