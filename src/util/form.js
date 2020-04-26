@@ -95,9 +95,11 @@ export const AData = (e, onName, onEmail, onAddress, onPhone) => {
         case 'address':
             onAddress(e.target.value)
             break;
-        case 'phone':
-            onPhone(e.target.value)
+        case 'phone': {
+            if(e.target.value.length <= 15)
+                onPhone(e.target.value)
             break;
+        }
         default: return;
     }
 }
