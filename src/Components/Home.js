@@ -18,7 +18,7 @@ class Home extends React.Component {
             <div className="in_home_head mb-4">
               <a className="navbar-brand text-uppercase" href="/">RB</a>
             </div>
-            <h1 className="text-white display-4">Your first impression is your resume!</h1>
+            <h1 className="text-white display-4 m-3">Your first impression is your resume!</h1>
             <br />
             <Link to={"/build"}><button type="button" className="btn btn-primary btn-lg">Create now</button></Link>
           </div>
